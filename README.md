@@ -15,3 +15,14 @@ Dataset:
 1) WINE  (http://archive.ics.uci.edu/ml/datasets/Wine (Links to an external site.)) dataset.
 2) Wallpaper Group Dataset - This dataset consists of the features extracted from images containing the 17 Wallpaper Groups
 3) Taiji Pose Dataset - This is a dataset of the joint angles (in quaternions) of 35 sequences from 4 people performing Taiji in our motion capture lab.
+
+
+
+# This project contains: 
+- `start.m`: the main function which contains examples of: 
+   - how to load the data 
+   - a classification using LDA with Matlab's inbuilt tools
+   - visualizations of the classification
+- `loadDataset.m`:  a function to load the specific dataset
+- `visualizeBoundaries.m`: a function to visualize the linear discriminant boundaries in two dimensions
+- `visualizeBoundariesFill.m`: a function to visualize the classification areas in two dimensions
